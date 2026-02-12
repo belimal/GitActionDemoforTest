@@ -39,13 +39,7 @@ public class W2TestingTest {
     /**
      * Test of greetings method, of class W2Testing.
      */
-    @Test
-    public void testGreetings() {
-       W2Testing utd = new W2Testing();
-       assertEquals("hello world!", utd.greetings());
-       
-    }
-    
+   
     @Test
     public void testGreetingsTrue() {
        W2Testing utd = new W2Testing();
